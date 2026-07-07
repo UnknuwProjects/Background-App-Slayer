@@ -1,3 +1,18 @@
+## Version 5.1.3
+#AppSlayer Update - Ultra-Light Refactor
+
+#Instant Kill: Mengganti loop bash dengan grep -vFf. Filter aplikasi kini instan tanpa lag-spike saat buka game.
+
+#RAM Disk: File temporary dipindah ke /dev/ untuk mencegah keausan memori internal (NAND wear).
+
+#Deep Sleep Fix: Jeda deteksi diperpanjang saat layar mati agar lebih hemat baterai.
+
+#No More Stutter: Menghapus drop_caches dan trim-memory. RAM murni dibersihkan via am force-stop agar game tidak patah-patah.
+
+#Clean Code: Optimasi deteksi aplikasi sistem pakai Regex dan meredam output broadcast biar bebas memory leak.
+
+#🎮 Enjoy Your Gaming!
+
 ## V5.1.2
 ### Apa yang baru?
 
