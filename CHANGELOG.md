@@ -1,6 +1,7 @@
 ## Version 5.1.3
 ### What's New ?
-##*AppSlayer Update* - Ultra-Light Refactor
+
+- *Ultra-Light Refactor*
 
 - *Instant Kill:* Mengganti loop bash dengan grep -vFf. Filter aplikasi kini instan tanpa lag-spike saat buka game.
 
