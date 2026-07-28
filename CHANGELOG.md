@@ -1,4 +1,17 @@
-## Version 5.1.3
+### 🚀 AppSlayer Update 5.1.4
+
+### ⚡ Performa & Optimalisasi
+* **Eksekusi Instan & Bebas Lag**: Menghilangkan spam *broadcast toast* di dalam loop dan menghapus pembersihan *cache* paksa yang memicu *storage I/O throttling*.
+* **Efisiensi CPU & Baterai**: Mengoptimalkan fungsi pengaturan frekuensi CPU (menghapus *nested loop*) dan menyesuaikan jeda waktu (*sleep*) agar lebih hemat beban *background*.
+
+### 🐛 Perbaikan Bug (Bug Fixes)
+* **Pembersihan Game Idle**: Memperbaiki logika `gamelist.txt`. Game lain yang sedang tidak dimainkan kini otomatis dibersihkan untuk melegakan RAM. Hanya game yang sedang aktif di layar yang dikecualikan.
+
+### 📝 Pencatatan Log
+* **Detail Log Kembali**: Menambahkan kembali pencatatan daftar aplikasi yang di-kill ke `log.txt` (berlaku untuk mode otomatis maupun manual) tanpa memperlambat proses eksekusi.
+
+
+# Version 5.1.3
 ### What's New ?
 
 - *Ultra-Light Refactor*
